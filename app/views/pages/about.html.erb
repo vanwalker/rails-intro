@@ -1,0 +1,21 @@
+<h1>Our first view 🚀</h1>
+
+
+
+
+<form action="/contact" method="get">
+  <input type="text"
+    name="member"
+    value="<%= params[:member] %>"
+    placeholder="Who are you looking for?"
+  >
+  <input type="submit">
+</form>
+
+<%= link_to '/' do %>
+  <div>test</div>
+  <div>test</div>
+  <div>test</div>
+<% end %>
+<%= link_to "Ma page about", about_path %>
+<%= link_to "Ma page contact", '/contact' %>

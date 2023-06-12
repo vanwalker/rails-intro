@@ -1,0 +1,9 @@
+<h1>contact</h1>
+<%= link_to "Ma page home", '/' %>
+<%= link_to "Ma page about", '/about' %>
+<%= link_to "Ma page contact", '/contact' %>
+<ul>
+  <% @members.each do |member| %>
+    <li><%= member.capitalize %></li>
+  <% end %>
+</ul>
